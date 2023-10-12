@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <style>
+        body{
+            padding: 50px 100px;
+            background-image: url(temp2.jpg);
+            
+    
+        }
+        h1{
+            text-align: center;
+            color: crimson;
+        }
+        #container{
+            text-align: center; 
+            padding: 50px;
+        }
+       .inp{
+            padding: 5px;
+            margin: 10px;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+        label{
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(165, 42, 52);
+        }
+        
+    </style>
+</head>
+<body> 
+<h1>Temperature Converter</h1>
+<div id="container">
+    <div class="input-div">
+        <label>Celsius</label><br>
+        <input type="number" value="0" id="cel" class="inp">
+    </div>
+<div class="input-div"></div>
+        <label>Fahrenheit</label><br>
+        <input type="number" value="32" id="fah" class="inp">
+        <div class="input-div">
+            <label>Kelvin</label><br>
+            <input type="number" value="273.15" id="kel" class="inp">
+             </div>
+    </div>
+
+    <script src="js.js"></script>
+    
+</body>
+</html>
